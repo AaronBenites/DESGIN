@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+<!--tipo de fuente :awesome cdn link-->
+<link rel="Stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+<!-- custom css file link-->
+<link rel="Stylesheet" href="css/style.css"/>
+
+
+</head>
+<body>
+ 
+  <!--Header section stars -->  
+
+  <header class="header">
+
+    <section class="flex">
+
+        <a href=" " class="logo">Nanaba.</a>
+
+        <nav class="navbar">
+            <a href="home.html">Inicio</a>
+            <a href="about.html">Acerca de</a>
+            <a href="tours.html">Artículos</a>
+            <a href="destinations.html">Sucursales</a>
+            <a href="contact.html">Contacto</a>
+            <a href="https://www.youtube.com" target="_blank">Youtube</a>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        </section>
+
+  </header>
+
+<!--Header section ends --> 
+
+<!--Home section stars-->
+
+<div class="container home">
+
+<section class="flex">
+
+    <form action="" method="post">
+        <h3>Ingresa tus datos</h3>
+        <p>Dirección</p>
+        <input type="text" name="location" required maxlength="50" placeholder="Ciudad/Privincia/Distrito" class="box">
+        <p>Año de Nacimiento</p>
+        <input type="date" name="date" class="box" required>
+        <p>Cantidad de artículos</p>
+        <input type="number" name="guests" min="1" max="10" maxlength="2" placeholder="Figuras/Merch/Cards" required class="box">    
+        <input type="submit" value="Enviar" name="search" class="btn" >
+    </form>
+
+</section>
+
+</div>
+
+<!--Home section ends-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- esto es para el js file link-->
+<script src="js/script.js"></script>
+
+</body>
+</html>
